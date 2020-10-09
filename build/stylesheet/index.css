@@ -48,6 +48,21 @@ p {
   font-size: 20px;
   line-height: 30px; }
 
+.mt-20 {
+  margin-top: 20px; }
+
+.mt-40 {
+  margin-top: 40px; }
+
+.mt-60 {
+  margin-top: 60px; }
+
+.mt-80 {
+  margin-top: 80px; }
+
+.mt-100 {
+  margin-top: 80px; }
+
 .mb-20 {
   margin-bottom: 20px; }
 
@@ -60,6 +75,9 @@ p {
 .mb-80 {
   margin-bottom: 80px; }
 
+.mb-100 {
+  margin-bottom: 80px; }
+
 .body {
   background-image: url("../../assets/background.png");
   background-repeat: repeat;
@@ -70,7 +88,7 @@ p {
     height: 70px;
     width: 100%;
     background-color: #128048; }
-    .body .navbar-top .container {
+    .body .navbar-top ._container {
       display: flex; }
     .body .navbar-top .left {
       display: flex;
@@ -114,7 +132,7 @@ p {
       background-color: #f9f9f9;
       min-width: 100px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-      z-index: 1; }
+      z-index: 999; }
       .body .navbar-top .dropdown-content a {
         color: black;
         background-color: #FBFF00;
@@ -127,22 +145,22 @@ p {
     .body .navbar-top .vl {
       border-left: 2px solid white;
       height: 30px; }
-  .body .footer .jasling {
+  .body ._footer .jasling {
     height: 800px;
     background: url("../../assets/bg-jasling.png");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center; }
-    .body .footer .jasling .transbox {
+    .body ._footer .jasling .transbox {
       height: inherit;
       background: rgba(0, 0, 0, 0.5);
       color: white;
       display: flex;
       align-items: center;
       justify-content: center; }
-      .body .footer .jasling .transbox h1 {
+      .body ._footer .jasling .transbox h1 {
         font-size: 140px; }
-      .body .footer .jasling .transbox button {
+      .body ._footer .jasling .transbox button {
         background-color: #F19811;
         border: none;
         color: white;
@@ -154,23 +172,23 @@ p {
         width: 330px;
         height: 47px;
         cursor: pointer; }
-        .body .footer .jasling .transbox button:hover {
+        .body ._footer .jasling .transbox button:hover {
           background-color: #128048; }
-  .body .footer .middle {
+  .body ._footer .middle {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 300px;
     text-align: center; }
-    .body .footer .middle h1 {
+    .body ._footer .middle h1 {
       font-size: 35px;
       color: #128048; }
-    .body .footer .middle p {
+    .body ._footer .middle p {
       color: #655953; }
-    .body .footer .middle h2 {
+    .body ._footer .middle h2 {
       font-size: 25px;
       color: #128048; }
-  .body .footer .middle-btm {
+  .body ._footer .middle-btm {
     height: 600px;
     background: url("../../assets/bg-2.png");
     background-repeat: repeat;
@@ -180,34 +198,128 @@ p {
     align-items: center;
     flex-direction: column;
     text-align: center; }
-    .body .footer .middle-btm .text {
+    .body ._footer .middle-btm .text {
       width: 80%; }
-      .body .footer .middle-btm .text .links {
+      .body ._footer .middle-btm .text .links {
         display: flex;
         align-items: center;
         justify-content: space-evenly; }
-        .body .footer .middle-btm .text .links .item {
+        .body ._footer .middle-btm .text .links .item {
           max-width: 135px; }
-          .body .footer .middle-btm .text .links .item a {
+          .body ._footer .middle-btm .text .links .item a {
             font-size: 15px;
             text-decoration: none;
             color: #655953;
             font-weight: 600;
             text-transform: uppercase; }
-      .body .footer .middle-btm .text p {
+      .body ._footer .middle-btm .text p {
         margin-bottom: 10px; }
-      .body .footer .middle-btm .text .social a {
+      .body ._footer .middle-btm .text .social a {
         text-decoration: none;
         font-size: 40px;
         margin: 10px; }
-  .body .footer .last {
+  .body ._footer .last {
     background: #fff;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center; }
-    .body .footer .last .item {
+    .body ._footer .last .item {
       margin: 0px 20px; }
-  .body .content {
-    padding-top: 70px;
-    height: 1000px; }
+  .body ._content {
+    padding-top: 70px; }
+    .body ._content .dir-pjlhk {
+      height: 940px;
+      background: url("../../assets/bg-mount.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center; }
+      .body ._content .dir-pjlhk .logos {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -320px; }
+        .body ._content .dir-pjlhk .logos .logo {
+          margin: 40px;
+          min-width: 200px; }
+      .body ._content .dir-pjlhk .transbox {
+        height: inherit;
+        background: linear-gradient(0deg, rgba(13, 13, 13, 0.72) 19.41%, rgba(13, 13, 13, 0) 50%);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900; }
+        .body ._content .dir-pjlhk .transbox .dir {
+          font-size: 130px; }
+        .body ._content .dir-pjlhk .transbox .pj {
+          font-size: 300px; }
+        .body ._content .dir-pjlhk .transbox .d1 {
+          font-size: 35px; }
+        .body ._content .dir-pjlhk .transbox .d2 {
+          font-size: 40px; }
+        .body ._content .dir-pjlhk .transbox .penelusuran {
+          font-size: 28px; }
+    .body ._content .bar-bromo {
+      height: 70px;
+      background-color: #128048;
+      display: flex;
+      align-items: center;
+      color: white; }
+      .body ._content .bar-bromo .bromo {
+        width: 1300px;
+        height: inherit;
+        display: flex;
+        align-items: center; }
+        .body ._content .bar-bromo .bromo .text {
+          font-size: 28px;
+          margin-right: 40px;
+          margin-left: 40px; }
+        .body ._content .bar-bromo .bromo .text2 {
+          padding: 5px 10px;
+          font-size: 28px;
+          background-color: #303030; }
+      .body ._content .bar-bromo .taman {
+        padding: 0px 20px;
+        background: #C27316;
+        opacity: 0.7;
+        height: inherit;
+        width: 623px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        .body ._content .bar-bromo .taman p {
+          font-size: 28px; }
+  .body .about h2, .body .about h3 {
+    color: #128048; }
+  .body .about .tentang-kami {
+    height: unset;
+    text-align: center; }
+    .body .about .tentang-kami .logos {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: -150px; }
+      .body .about .tentang-kami .logos .logo {
+        margin: 40px;
+        min-width: 200px; }
+    .body .about .tentang-kami .transbox {
+      height: inherit;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900; }
+      .body .about .tentang-kami .transbox .dir {
+        font-size: 130px;
+        color: #128048; }
+      .body .about .tentang-kami .transbox .d1 {
+        font-size: 20px;
+        color: #655953;
+        width: 60%;
+        line-height: 35px;
+        margin-left: auto;
+        margin-right: auto; }
+      .body .about .tentang-kami .transbox .downloads {
+        display: flex;
+        justify-content: space-evenly; }
