@@ -38,8 +38,7 @@ html, body {
   height: 100%; }
 
 body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif; }
+  margin: 0; }
 
 h1, h2, h3, p {
   margin: 0; }
@@ -77,6 +76,18 @@ p {
 
 .mb-100 {
   margin-bottom: 80px; }
+
+.col, .card {
+  position: unset; }
+
+.decor-none {
+  text-decoration: none; }
+
+.main-green {
+  color: #128048; }
+
+.mild-brown {
+  color: #655953; }
 
 .body {
   background-image: url("../../assets/background.png");
@@ -323,3 +334,44 @@ p {
       .body .about .tentang-kami .transbox .downloads {
         display: flex;
         justify-content: space-evenly; }
+      .body .about .tentang-kami .transbox .aktivitas-utama .card h5 {
+        color: #128048; }
+      .body .about .tentang-kami .transbox .aktivitas-utama .card p {
+        font-size: 14px;
+        color: #655953;
+        text-align: left;
+        color: #728196;
+        font-weight: 500; }
+      .body .about .tentang-kami .transbox .aktivitas-utama .card a {
+        color: #655953; }
+      .body .about .tentang-kami .transbox .seputar-jasling .card h5 {
+        color: #655953; }
+      .body .about .tentang-kami .transbox .tampilkan {
+        width: 329px;
+        height: 47px;
+        background: #128048;
+        color: white; }
+  .body .about .info .card h5 {
+    color: #655953; }
+  .body .about .info .card a {
+    color: #128048; }
+  .body .about .info .main-news {
+    color: #128048; }
+    .body .about .info .main-news a {
+      color: #655953; }
+  .body .about .info .nav-link {
+    width: 360px;
+    color: #128048;
+    border: 1px solid #128048;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 0px; }
+    .body .about .info .nav-link.active {
+      color: white;
+      border: 1px solid #128048;
+      background-color: #128048; }
+  .body .about .info .tampilkan {
+    width: 329px;
+    height: 47px;
+    background: #128048;
+    color: white; }
