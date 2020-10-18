@@ -164,8 +164,42 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="assets/jelajah/jelajah-banner.png" class="d-block w-100" alt="...">
-                <a href="#" class="bottom-center text-center text-white">Mulai Penelusuran</a>
+                <img src="assets/jelajah/jelajah-wisata-banner.png" class="d-block w-100" alt="...">
+                <div class="container bottom-center">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control"
+                                    placeholder="Cari berdasarkan destinasi atau kategori">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <select name="" id="" class="form-control">
+                                    <option value="">Pilih Provinsi..</option>
+                                    <option value="">Provinsi1</option>
+                                    <option value="">Provinsi2</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <select name="" id="" class="form-control">
+                                    <option value="">Pilih Wilayah..</option>
+                                    <option value="">Wilayah1</option>
+                                    <option value="">WIlayah2</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-6 text-center">
+                            <input type="submit" class="btn btn-primary w-100" value="Jelajahi Sekarang">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -177,39 +211,43 @@
                     <h4>Pilih Penelusuran</h4>
                 </div>
                 <div class="col-sm-6">
-                    <a href="#"><button style="width: 100%;" class="btn btn-info">Destinasi</button></a>
+                    <a href="#"><button style="width: 100%;" class="btn btn-outline-info">Destinasi</button></a>
                 </div>
                 <div class="col-sm-6">
-                    <a href="#"><button style="width: 100%;" class="btn btn-outline-info">Kategori</button></a>
+                    <a href="#"><button style="width: 100%;" class="btn btn-info">Kategori</button></a>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row mb-4">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <ul class="nav nav-tabs d-flex w-100 justify-content-between" id="myTab" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#taman-nasional" role="tab"
-                            aria-controls="home" aria-selected="true">Taman Nasional</a>
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#gunung" role="tab"
+                            aria-controls="gunung" aria-selected="true">Gunung</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#taman-wisata" role="tab"
-                            aria-controls="taman-wisata" aria-selected="false">Taman Wisata Alaam</a>
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#laut" role="tab"
+                            aria-controls="laut" aria-selected="false">Laut</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#suaka" role="tab"
-                            aria-controls="suaka" aria-selected="false">Suaka Margasatwa</a>
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#sungai-danau" role="tab"
+                            aria-controls="sungai-danau" aria-selected="false">Sungai/Danau</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#tahura" role="tab"
-                            aria-controls="tahura" aria-selected="false">TAHURA</a>
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#margasatwa" role="tab"
+                            aria-controls="margasatwa" aria-selected="false">Margasatwa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#budaya" role="tab"
+                            aria-controls="budaya" aria-selected="false">Budaya</a>
                     </li>
                 </ul>
                 <div class="tab-content text-center" id="myTabContent">
-                    <div class="tab-pane fade show active" id="taman-nasional" role="tabpanel"
-                        aria-labelledby="home-tab">Telusuri tentang Taman Nasional, Taman Wisata AlaM, Suaka Margasatwa,
+                    <div class="tab-pane fade show active" id="gunung" role="tabpanel" aria-labelledby="home-tab">
+                        Telusuri tentang Taman Nasional, Taman Wisata AlaM, Suaka Margasatwa,
                         dan TAHURA. Temukan tempat wisata yang paling indah, dan telusuri daftar lengkap kami disini.
                     </div>
-                    <div class="tab-pane fade" id="taman-wisata" role="tabpanel" aria-labelledby="profile-tab">Food
+                    <div class="tab-pane fade" id="laut" role="tabpanel" aria-labelledby="profile-tab">Food
                         truck
                         fixie
                         locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore
@@ -225,7 +263,8 @@
                         sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party
                         scenester
                         stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
-                    <div class="tab-pane fade" id="suaka" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape
+                    <div class="tab-pane fade" id="sungai-danau" role="tabpanel" aria-labelledby="contact-tab">Etsy
+                        mixtape
                         wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny
                         pack
                         lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone
@@ -237,7 +276,21 @@
                         etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer
                         blog
                         stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
-                    <div class="tab-pane fade" id="tahura" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape
+                    <div class="tab-pane fade" id="margasatwa" role="tabpanel" aria-labelledby="contact-tab">Etsy
+                        mixtape
+                        wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny
+                        pack
+                        lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone
+                        skateboard
+                        locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings
+                        gentrify
+                        squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork
+                        biodiesel fixie
+                        etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer
+                        blog
+                        stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+                    <div class="tab-pane fade" id="budaya" role="tabpanel" aria-labelledby="contact-tab">Etsy
+                        mixtape
                         wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny
                         pack
                         lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone
@@ -254,8 +307,8 @@
             <div class="row justify-content-center">
                 <div class="col-sm-8">
                     <div class="input-group md-form form-sm form-2 pl-0 mb-5">
-                        <input class="form-control my-0 py-1 red-border" type="text"
-                            placeholder="Cari Berita atau Artikel" aria-label="Search">
+                        <input class="form-control my-0 py-1 red-border" type="text" placeholder="Cari Gunung Gede"
+                            aria-label="Search">
                         <div class="input-group-append">
                             <span class="input-group-text red lighten-3" id="basic-text1"><i
                                     class="fa fa-search text-grey" aria-hidden="true"></i></span>
@@ -269,104 +322,90 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="card">
-                        <img src="assets/jelajah/jelajah-gunung-1.png" class="w-100 card-img-top" alt="...">
+                        <img src="assets/jelajah/jelajah-sumatra.png" class="w-100 card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">TN Gunung Leuser</h5>
-                            <p class="card-text text-left">Taman Nasional Batang Gadis terletak di Mandailing Natal,
-                                Sumatera
-                                Utara</p>
+                            <h5 class="card-title">Sumatera</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <a href="#">Telusuri Sekarang</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="card">
-                        <img src="assets/jelajah/jelajah-gunung-2.png" class="w-100 card-img-top" alt="...">
+                        <img src="assets/jelajah/jelajah-jawa.png" class="w-100 card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">TN Batang Gadis</h5>
-                            <p class="card-text text-left">TN. Taka Bonerate mempunyai Pulau Tak Bervegetasi, Bungin
-                                Belle, ....</p>
+                            <h5 class="card-title">Jawa</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <a href="#">Telusuri Sekarang</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="card">
-                        <img src="assets/jelajah/jelajah-gunung-3.png" class="w-100 card-img-top" alt="...">
+                        <img src="assets/jelajah/jelajah-kalimantan.png" class="w-100 card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">TN Kerinci Seblat</h5>
-                            <p class="card-text text-left">Kawasan Taman Nasional Lorentz (TN Lorentz) terletak di
-                                bagian Tengah-Selatan ..</p>
+                            <h5 class="card-title">Kalimantan</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <a href="#">Telusuri Sekarang</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="card">
-                        <img src="assets/jelajah/jelajah-gunung-1.png" class="w-100 card-img-top" alt="...">
+                        <img src="assets/jelajah/jelajah-bali.png" class="w-100 card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">TN Gunung Leuser</h5>
-                            <p class="card-text text-left">Taman Nasional Batang Gadis terletak di Mandailing Natal,
-                                Sumatera
-                                Utara</p>
+                            <h5 class="card-title">Bali</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <a href="#">Telusuri Sekarang</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="card">
-                        <img src="assets/jelajah/jelajah-gunung-2.png" class="w-100 card-img-top" alt="...">
+                        <img src="assets/jelajah/jelajah-nusa.png" class="w-100 card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">TN Batang Gadis</h5>
-                            <p class="card-text text-left">TN. Taka Bonerate mempunyai Pulau Tak Bervegetasi, Bungin
-                                Belle, ....</p>
+                            <h5 class="card-title">Nusa Tenggara</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <a href="#">Telusuri Sekarang</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="card">
-                        <img src="assets/jelajah/jelajah-gunung-3.png" class="w-100 card-img-top" alt="...">
+                        <img src="assets/jelajah/jelajah-sulawesi.png" class="w-100 card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">TN Kerinci Seblat</h5>
-                            <p class="card-text text-left">Kawasan Taman Nasional Lorentz (TN Lorentz) terletak di
-                                bagian Tengah-Selatan ..</p>
+                            <h5 class="card-title">Sulawesi</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <a href="#">Telusuri Sekarang</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="card">
-                        <img src="assets/jelajah/jelajah-gunung-1.png" class="w-100 card-img-top" alt="...">
+                        <img src="assets/jelajah/jelajah-maluku.png" class="w-100 card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">TN Gunung Leuser</h5>
-                            <p class="card-text text-left">Taman Nasional Batang Gadis terletak di Mandailing Natal,
-                                Sumatera
-                                Utara</p>
+                            <h5 class="card-title">Maluku</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <a href="#">Telusuri Sekarang</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="card">
-                        <img src="assets/jelajah/jelajah-gunung-2.png" class="w-100 card-img-top" alt="...">
+                        <img src="assets/jelajah/jelajah-papua.png" class="w-100 card-img-top" alt="...">
                         <div class="card-body text-center">
-                            <h5 class="card-title">TN Batang Gadis</h5>
-                            <p class="card-text text-left">TN. Taka Bonerate mempunyai Pulau Tak Bervegetasi, Bungin
-                                Belle, ....</p>
-                            <a href="#">Telusuri Sekarang</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="assets/jelajah/jelajah-gunung-3.png" class="w-100 card-img-top" alt="...">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">TN Kerinci Seblat</h5>
-                            <p class="card-text text-left">Kawasan Taman Nasional Lorentz (TN Lorentz) terletak di
-                                bagian Tengah-Selatan ..</p>
+                            <h5 class="card-title">Papua</h5>
+                            <p class="card-text text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <a href="#">Telusuri Sekarang</a>
                         </div>
                     </div>
