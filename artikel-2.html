@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        /* Bottom left text */
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 25px;
+        }
+
+        .bottom-center {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .very-bottom {
+            position: absolute;
+            bottom: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .very-bottom2 {
+            position: absolute;
+            bottom: 0%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .bg {
+            background: url(assets/background.png);
+        }
+
+        .bottom-bg {
+            background: url(assets/bg-2.png);
+        }
+
+        .mycontent-left {
+            border-right: 1px solid #333;
+        }
+
+        #bg-logo {
+            background: url(assets/klhk-logo-hp.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 300px;
+        }
+    </style>
+    <script src="https://use.fontawesome.com/0e815ebfb9.js"></script>
+    <link rel="stylesheet" href="libs/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Beranda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto align-items-center text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="beritaDown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Berita dan Artikel
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="beritaDown">
+                        <a class="dropdown-item" href="#">Berita</a>
+                        <a class="dropdown-item" href="#">Artikel</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="jaslingDown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Pemanfaatan <br> Jasa Lingkungan
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="jaslingDown">
+                        <a class="dropdown-item" href="#">Peta Pemanfaatan Jasling</a>
+                        <a class="dropdown-item" href="#">Pemanfaatan Eksisting</a>
+                        <a class="dropdown-item" href="#">Peluang Usaha</a>
+                        <a class="dropdown-item" href="#">Nilai Ekonomi</a>
+                        <a class="dropdown-item" href="#">PNBP</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="promosiDown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Promosi dan <br> Pemasaran
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="promosiDown">
+                        <a class="dropdown-item" href="#">Publikasi</a>
+                        <a class="dropdown-item" href="#">Galeri Foto</a>
+                        <a class="dropdown-item" href="#">Galeri Video</a>
+                        <a class="dropdown-item" href="#">Kalender Acara</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="binaDown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Bina Cinta <br> Alam
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="binaDown">
+                        <a class="dropdown-item" href="#">Kader Konservasi</a>
+                        <a class="dropdown-item" href="#">Kelompok Pecinta Alam</a>
+                        <a class="dropdown-item" href="#">Mitra Lain</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="peraturanDown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Peraturan <br> Perundangan
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="peraturanDown">
+                        <a class="dropdown-item" href="#">Undang-Undang</a>
+                        <a class="dropdown-item" href="#">Perpu</a>
+                        <a class="dropdown-item" href="#">Peraturan Pemerintah</a>
+                        <a class="dropdown-item" href="#">Peraturan Presiden</a>
+                        <a class="dropdown-item" href="#">Keputusan Pemerintah</a>
+                        <a class="dropdown-item" href="#">Peraturan Men-LHK</a>
+                        <a class="dropdown-item" href="#">Keputusan Men-LHK</a>
+                        <a class="dropdown-item" href="#">Peraturan Dirjen KSDAE</a>
+                        <a class="dropdown-item" href="#">Keputusan Dirjen KSDAE</a>
+                        <a class="dropdown-item" href="#">Persekjen</a>
+                        <a class="dropdown-item" href="#">Surat Edaran</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="jelajahDown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Jelajah Wisata
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="jelajahDown">
+                        <a class="dropdown-item" href="#">Destinasi</a>
+                        <a class="dropdown-item" href="#">Kategori</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hubungi Kami</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right align-items-center text-center">
+                <li class="mycontent-left mr-2 pr-2"><a href="#"><i class="fa fa-search"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i>Sorotan</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- CONTENT BEGINS -->
+    <div class="bg">
+        <div class="container-fluid">
+            <img width="100%" src="assets/berita/berita-2-logo.png" alt="">
+        </div>
+        <div class="container pt-5">
+            <div class="row text-center">
+                <div class="col-sm-12">
+                    <h3> <a href="#">Berita dan Artikel </a> / <a href="#">Artikel</a></h3>
+                    <h1>Perkuat Kemitraan untuk Pemulihan Ekosistem di SKW III</h1>
+                    <p>Oleh : Prawira Aditya Rahman, S.E | 4 Sep’ 2020</p>
+                    <img width="100%" src="assets/berita/berita-2-1.png" alt="">
+                </div>
+            </div>
+            <div class="row text-left">
+                <div class="col-sm-12 pr-5 pl-5">
+                    <p>KOTABARU, 2 SEPTEMBER 2020. Menindaklanjuti hasil temuan Inspektorat Jenderal KLHK terkait PKS
+                        antara Balai KSDA Kalimantan Selatan dengan PT. Indocement Tunggal Prakarsa, Tbk. (PT ITP) dalam
+                        rangka tukar menukar sebagian kawasan Cagar Alam di Kabupaten Kotabaru berupa Pembangunan Hutan
+                        Penelitian dan Pembangunan Penangkaran Satwa yang Dilindungi, pada tanggal 2 September 2020
+                        Kepala Balai KSDA Kalimantan Selatan Dr. Ir. Mahrus Aryadi, M. Sc didampingi KSBTU Suwandi,
+                        S.Hut., M.A, Ka.SKW III Batulicin Nikmat Hakim Pasaribu, S.P., M.Sc, dan Kepala Resort CA Teluk
+                        Kelumpang Ahmad Nabawi beserta Tim melaksanakan peninjauan lapangan ke PT.ITP. Kunjungan
+                        tersebut diterima oleh tim dari PT.ITP Boby Wardhana, Yulizar, Agus Rifani dan I Wayan Kedep.
+                    </p>
+                    <img width="100%" src="assets/berita/berita-2-2.png" alt="">
+                    <p>Pertemuan di ruang terbuka dengan menjaga protokol kesehatan, perwakilan PT. ITP Bapak Bobby
+                        mengungkapkan bahwa kendala dalam pembangunan hutan penelitian adalah kesulitan dalam
+                        menyediakan lahan yang clean and clear. Untuk sanctuary Bekantan terkendala keterbatasan
+                        fasilitas infrastruktur yang tidak terganggu dengan aktivitas manusia, lokasi pembangunan
+                        sanctuary yang sampai dengan saat ini belum menemukan areal yang cukup baik untuk mendukung
+                        pengembangan sanctuary dan keterbatasan sumber daya manusia yang berpengalaman dalam pengelolaan
+                        suaka satwa tersebut. Dr. Mahrus mengatakan akan meminta arahan kepada Dirjen KSDAE terkait hal
+                        tersebut dengan mempertimbangkan bahwa pembangunan/pengelolaan hutan penelitian bukan merupakan
+                        tupoksi KSDAE. Apabila memungkinkan akan dikonversi dengan kegiatan yang menjadi tupoksi BKSDA
+                        seperti pembangunan hutan penelitian menjadi pemulihan ekosistem mangrove dan Sanctuary Bekantan
+                        menjadi pembangunan kandang transit satwa, tuturnya. Pembangunan kandang transit menjadi salah
+                        satu prioritas Balai KSDA Kalimantan Selatan saat ini karena tempat eksisting sudah tidak
+                        representatif dari segi lokasi karena berada di tengah kota dengan status pinjam pakai dan
+                        berbatasan dengan rumah dinas Sekdaprov Kalsel. Apabila konversi disetujui akan dibangun di
+                        areal sendiri, tambah Dr. Mahrus.</p>
+                    <img width="100%" src="assets/berita/berita-2-3.png" alt="">
+                    <p>Selain itu rombongan Balai KSDA Kalimantan Selatan juga mengunjungi penangkaran Rusa Sambar (Rusa
+                        unicolor). Pada awal penangkaran tahun 2010 jumlah Rusa sejumlah 7 ekor dengan jantan sebanyak 2
+                        ekor dan betina 5 ekor, sekarang sudah berjumlah 25 ekor dengan 13 ekor jantan dan 12 ekor
+                        betina. Selain Rusa Sambar, terdapat juga pemeliharaan Owa-owa (Hylobates sp) yang berisi 1 ekor
+                        jantan dan 2 ekor betina. Kegiatan lainnya budidaya lebah kelulut, perikanan air tawar,
+                        pertanian dan peternakan unggas.</p>
+                </div>
+            </div>
+            <div class="row mb-2">
+                <div class="col-sm-8 col-md-8 col-lg-8 m-auto">
+                    <img width="100%" src="assets/berita/berita-lainnya.png" alt="">
+                </div>
+            </div>
+            <div class="row pb-5">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card">
+                        <img src="assets/home/home-berita-1.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Berita</h5>
+                            <a href="#" class="card-text">Perkuat Kemitraan untuk Pemulihan
+                                Ekosistem
+                                di SKW III</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card">
+                        <img src="assets/home/home-berita-2.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Berita</h5>
+                            <a href="#" class="card-text">Terkait TSL Ilegal, BKSDA Maluku Lakukan Rapat Lintas
+                                Stakeholder</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card">
+                        <img src="assets/home/home-berita-3.png" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Berita</h5>
+                            <a href="#" class="card-text">Hari Bersejarah Konservasi Banteng Jawa di Indonesia</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT ENDS -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/home/home-jalin.png" class="d-block w-100" alt="...">
+                <a href="#" class="btn btn-warning text-center bottom-center">Daftar Sekarang</a>
+            </div>
+        </div>
+    </div>
+    <div class="bg">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1>Kementrian Lingkungan Hidup dan Kehutanan</h1>
+                    <p>Kementerian Lingkungan Hidup dan Kehutanan mempunyai tugas menyelenggarakan urusan pemerintahan
+                        di
+                        bidang lingkungan hidup dan kehutanan untuk membantu Presiden dalam menyelenggarakan
+                        pemerintahan
+                        negara.</p>
+                    <a href="#">Selengkapnya Tentang Taman Nasional <br><i class="fa fa-arrow-down"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bottom-bg">
+        <div class="container">
+            <div class="row text-center">
+                <nav class="navbar navbar-expand-lg navbar-light w-100 ">
+                    <div class="navbar-nav text-center align-items-center text-uppercase w-100 justify-content-between">
+                        <a class="nav-item nav-link active" href="#">BERANDA <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">TENTANG KAMI <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">BERITA DAN <br>ARTIKEL <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">PEMANFAATAN <br> JASA LINGKUNGAN <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">Promosi dan <br> Pemasaran <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">Peraturan <br> Perundangan <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">jelajah wisata <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#">hubungi kami<span
+                                class="sr-only">(current)</span></a>
+                    </div>
+                </nav>
+                <div class="col-sm-12 mb-3">
+                    <img src="assets/KLHK-logo.png" class="m-auto" alt="">
+                </div>
+                <div class="col-sm-12">
+                    <h4>Jl. Ir. H. Djuanda No.15 Bogor</h4>
+                    <p>Phone: (0251) 832 401 3, (0251) 8317 011 | Email: dit.pjlhk@gmail.com </p>
+                    <p>Copyright 2020 © Kementerian Lingkungan Hidup Dan Kehutanan Republik Indonesia. All Rights
+                        Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <img width="100%" src="assets/home/home-very-bottom.png" alt="">
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
